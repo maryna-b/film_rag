@@ -1,0 +1,3 @@
+"""
+Film RAG system package.
+"""
