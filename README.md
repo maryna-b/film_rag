@@ -76,6 +76,29 @@ Film Bot: The Matrix (1999), directed by Lana Wachowski and Lilly Wachowski, is 
 You: exit
 ```
 
+## Testing
+
+This project uses `pytest` for unit testing. Tests are located in the `tests/` directory and cover the core logic of the modules in `src/`.
+
+To run the tests, ensure you have installed the development dependencies (including `pytest` and `pytest-mock`):
+
+```bash
+pip install -r requirements.txt
+```
+
+Then, run `pytest` from the project root directory:
+
+```bash
+pytest
+```
+
+The current test suite covers:
+- `src/data_processing.py`
+- `src/recommendation.py`
+- `src/retrieval.py`
+- `src/embedding.py`
+- `src/agent.py`
+
 ## Project Structure
 
 ```
